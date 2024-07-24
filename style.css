@@ -1,0 +1,39 @@
+body{
+    background-color: #110132;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    color: #ffffff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 0;
+}
+.btn{
+    color: white;
+    background-color: #ff66c4;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.height, .weight{
+    background-color: #cb6ce6;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    bottom: 5%;
+    text-align: center;
+}
+.output{
+    margin: 2%;
+    position: relative;
+    top: 30px;
+    color: #110132;
+}
+.white{
+    color: white;
+}
